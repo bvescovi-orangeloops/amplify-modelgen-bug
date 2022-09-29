@@ -1,0 +1,27 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bvescoviamplifyresea-staging-105835-authRole",
+      "UnauthRoleArn": "arn:aws:iam::705435913846:role/amplify-bvescoviamplifyresea-staging-105835-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::705435913846:role/amplify-bvescoviamplifyresea-staging-105835-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-bvescoviamplifyresea-staging-105835-deployment",
+      "UnauthRoleName": "amplify-bvescoviamplifyresea-staging-105835-unauthRole",
+      "StackName": "amplify-bvescoviamplifyresea-staging-105835",
+      "StackId": "arn:aws:cloudformation:us-east-1:705435913846:stack/amplify-bvescoviamplifyresea-staging-105835/aacd5f00-3fe5-11ed-aaed-0ef508b183fd",
+      "AmplifyAppId": "d1j8947jv8zu5k"
+    },
+    "categories": {
+      "auth": {
+        "true": {}
+      },
+      "notifications": {
+        "Pinpoint": {
+          "Name": "bvescoviAmplifyReseavyNBR-staging",
+          "Id": "f93c977ffbdc413c8292459f581ab16e",
+          "Region": "us-east-1"
+        }
+      }
+    }
+  }
+}
