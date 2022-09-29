@@ -157,6 +157,13 @@ export const schema = {
                     "isRequired": true,
                     "attributes": []
                 },
+                "upVotes": {
+                    "name": "upVotes",
+                    "isArray": false,
+                    "type": "Int",
+                    "isRequired": false,
+                    "attributes": []
+                },
                 "createdAt": {
                     "name": "createdAt",
                     "isArray": false,
@@ -186,5 +193,5 @@ export const schema = {
     },
     "enums": {},
     "nonModels": {},
-    "version": "165944a36979cd395e3b22145bbfeff0"
+    "version": "f726c22f91b1bcc76b5e41f8eded7e36"
 };

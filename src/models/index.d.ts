@@ -37,6 +37,7 @@ export declare class Comment {
   readonly id: string;
   readonly post?: Post | null;
   readonly content: string;
+  readonly upVotes?: number | null;
   readonly createdAt?: string | null;
   readonly updatedAt?: string | null;
   constructor(init: ModelInit<Comment, CommentMetaData>);
