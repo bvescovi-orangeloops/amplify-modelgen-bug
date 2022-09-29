@@ -59,6 +59,7 @@ export const getPost = /* GraphQL */ `
         items {
           id
           content
+          upVotes
           createdAt
           updatedAt
           postCommentsId
@@ -119,6 +120,7 @@ export const getComment = /* GraphQL */ `
         blogPostsId
       }
       content
+      upVotes
       createdAt
       updatedAt
       postCommentsId
@@ -142,6 +144,7 @@ export const listComments = /* GraphQL */ `
           blogPostsId
         }
         content
+        upVotes
         createdAt
         updatedAt
         postCommentsId

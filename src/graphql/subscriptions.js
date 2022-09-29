@@ -79,6 +79,7 @@ export const onCreatePost = /* GraphQL */ `
         items {
           id
           content
+          upVotes
           createdAt
           updatedAt
           postCommentsId
@@ -109,6 +110,7 @@ export const onUpdatePost = /* GraphQL */ `
         items {
           id
           content
+          upVotes
           createdAt
           updatedAt
           postCommentsId
@@ -139,6 +141,7 @@ export const onDeletePost = /* GraphQL */ `
         items {
           id
           content
+          upVotes
           createdAt
           updatedAt
           postCommentsId
@@ -172,6 +175,7 @@ export const onCreateComment = /* GraphQL */ `
         blogPostsId
       }
       content
+      upVotes
       createdAt
       updatedAt
       postCommentsId
@@ -199,6 +203,7 @@ export const onUpdateComment = /* GraphQL */ `
         blogPostsId
       }
       content
+      upVotes
       createdAt
       updatedAt
       postCommentsId
@@ -226,6 +231,7 @@ export const onDeleteComment = /* GraphQL */ `
         blogPostsId
       }
       content
+      upVotes
       createdAt
       updatedAt
       postCommentsId
